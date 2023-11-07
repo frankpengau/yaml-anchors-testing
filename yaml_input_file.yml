@@ -1,0 +1,7 @@
+default_properties: &default_props
+  key1: value1
+  key2: value2
+
+component:
+  <<: *default_props
+  key3: value3
